@@ -20,7 +20,8 @@
 
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.zheng.service.HelloService"
-		ref="helloService" stub="com.zheng.service.impl.HelloServiceImplStub"/>
+		ref="helloService" 
+		stub="com.zheng.service.impl.HelloServiceImplStub"/>
 
 	<dubbo:service interface="com.zheng.service.ValidationService"
 		ref="validationService" validation="true" />
