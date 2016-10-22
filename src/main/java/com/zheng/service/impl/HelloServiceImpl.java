@@ -2,7 +2,6 @@ package com.zheng.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import com.alibaba.dubbo.rpc.RpcException;
 import com.zheng.service.HelloService;
 
 @Service("helloService")

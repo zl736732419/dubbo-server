@@ -39,5 +39,9 @@
 	<!-- 事件服务 -->
 	<dubbo:service interface="com.zheng.service.EventService"
 		ref="eventService" group="event" version="0.0.1" />
+		
+	<!-- 测试文件传输 -->
+	<dubbo:service interface="com.zheng.service.FileService"
+		ref="fileService" validation="true" protocol="hessian"/>
 
 </beans>
